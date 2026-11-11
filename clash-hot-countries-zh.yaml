@@ -1,37 +1,29 @@
 # profile-title: 热门国家免费
 # profile-update-interval: 12
 # 热门国家免费代理（中文节点名）链式/dialer-proxy 用
-# Generated: 2026-11-11 05:29:53 CST (Asia/Shanghai)
+# Generated: 2026-11-11 15:28:22 CST (Asia/Shanghai)
 # Criteria: HTTPS OK + geo match + ≥3/4 hold ~30–40s (two rounds when possible)
 # Countries: US, JP, SG, HK, KR, DE, GB, FR, TR, IN, ID, TW, MY, TH, NL, CA, AU, BR
 # Prefer encrypted (vless/ss/vmess/trojan); else no-auth HTTP/SOCKS
-# Usable total: 17
-# Per-country: {"US": 2, "JP": 2, "SG": 1, "HK": 1, "KR": 2, "DE": 3, "GB": 0, "FR": 0, "TR": 0, "IN": 2, "ID": 2, "TW": 0, "MY": 0, "TH": 0, "NL": 0, "CA": 2, "AU": 0, "BR": 0}
+# Usable total: 13
+# Per-country: {"US": 1, "JP": 1, "SG": 0, "HK": 2, "KR": 2, "DE": 1, "GB": 0, "FR": 1, "TR": 0, "IN": 1, "ID": 0, "TW": 0, "MY": 0, "TH": 0, "NL": 3, "CA": 0, "AU": 0, "BR": 1}
 proxies:
-  - name: "美国-HTTP-172.239.170.24"
+  - name: "美国-HTTP-184.170.169.216"
     type: "http"
-    server: "172.239.170.24"
-    port: 3128
-  - name: "美国-HTTP-54.80.161.141-2"
-    type: "http"
-    server: "54.80.161.141"
-    port: 3128
-  - name: "日本-SOCKS5-101.36.104.46"
+    server: "184.170.169.216"
+    port: 8888
+  - name: "日本-SOCKS5-180.222.187.50"
     type: "socks5"
-    server: "101.36.104.46"
-    port: 10808
-  - name: "日本-SOCKS5-101.36.104.239-2"
+    server: "180.222.187.50"
+    port: 10800
+  - name: "香港-SOCKS5-45.194.33.12"
     type: "socks5"
-    server: "101.36.104.239"
-    port: 10808
-  - name: "新加坡-HTTP-152.42.170.187"
-    type: "http"
-    server: "152.42.170.187"
-    port: 9090
-  - name: "香港-SOCKS5-123.58.219.171"
+    server: "45.194.33.12"
+    port: 30001
+  - name: "香港-SOCKS5-45.194.33.12-2"
     type: "socks5"
-    server: "123.58.219.171"
-    port: 10808
+    server: "45.194.33.12"
+    port: 30002
   - name: "韩国-HTTP-43.128.144.133"
     type: "http"
     server: "43.128.144.133"
@@ -40,39 +32,31 @@ proxies:
     type: "socks5"
     server: "183.106.215.208"
     port: 1080
-  - name: "德国-HTTP-103.237.102.191"
-    type: "http"
-    server: "103.237.102.191"
-    port: 11111
-  - name: "德国-SOCKS5-49.13.22.249-2"
-    type: "socks5"
-    server: "49.13.22.249"
-    port: 10808
-  - name: "德国-SOCKS5-91.107.179.68-3"
+  - name: "德国-SOCKS5-91.107.179.68"
     type: "socks5"
     server: "91.107.179.68"
     port: 10809
+  - name: "法国-HTTP-176.31.223.21"
+    type: "http"
+    server: "176.31.223.21"
+    port: 3128
   - name: "印度-SOCKS5-82.180.146.251"
     type: "socks5"
     server: "82.180.146.251"
     port: 10800
-  - name: "印度-SOCKS5-140.238.243.61-2"
+  - name: "荷兰-HTTP-144.124.251.24"
+    type: "http"
+    server: "144.124.251.24"
+    port: 10818
+  - name: "荷兰-SOCKS4-45.86.61.138-2"
     type: "socks5"
-    server: "140.238.243.61"
+    server: "45.86.61.138"
     port: 1080
-  - name: "印尼-HTTP-36.94.72.35"
+  - name: "荷兰-HTTP-45.86.61.138-3"
     type: "http"
-    server: "36.94.72.35"
-    port: 3128
-  - name: "印尼-HTTP-103.130.61.61-2"
-    type: "http"
-    server: "103.130.61.61"
-    port: 8081
-  - name: "加拿大-HTTP-184.107.141.142"
-    type: "http"
-    server: "184.107.141.142"
+    server: "45.86.61.138"
     port: 1080
-  - name: "加拿大-SOCKS4-184.107.141.142-2"
-    type: "socks5"
-    server: "184.107.141.142"
-    port: 1080
+  - name: "巴西-HTTP-187.62.191.3"
+    type: "http"
+    server: "187.62.191.3"
+    port: 61456
