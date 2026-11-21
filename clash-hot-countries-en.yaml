@@ -1,38 +1,54 @@
 # profile-title: Hot Countries Free
 # profile-update-interval: 12
 # Hot-country free proxies for chain/dialer-proxy use
-# Generated: 2026-11-21 05:30:18 CST (Asia/Shanghai)
+# Generated: 2026-11-21 15:25:34 CST (Asia/Shanghai)
 # Criteria: HTTPS OK + geo match + ≥3/4 hold ~30–40s (two rounds when possible)
 # Countries: US, JP, SG, HK, KR, DE, GB, FR, TR, IN, ID, TW, MY, TH, NL, CA, AU, BR
 # Prefer encrypted (vless/ss/vmess/trojan); else no-auth HTTP/SOCKS
-# Usable total: 16
-# Per-country: {"US": 1, "JP": 0, "SG": 0, "HK": 4, "KR": 2, "DE": 1, "GB": 0, "FR": 1, "TR": 0, "IN": 0, "ID": 2, "TW": 0, "MY": 0, "TH": 0, "NL": 4, "CA": 0, "AU": 0, "BR": 1}
+# Usable total: 20
+# Per-country: {"US": 4, "JP": 2, "SG": 0, "HK": 4, "KR": 1, "DE": 2, "GB": 0, "FR": 0, "TR": 0, "IN": 2, "ID": 1, "TW": 0, "MY": 4, "TH": 0, "NL": 0, "CA": 0, "AU": 0, "BR": 0}
 proxies:
-  - name: "US-HTTP-216.125.18.67"
+  - name: "US-HTTP-172.235.157.127"
     type: "http"
-    server: "216.125.18.67"
+    server: "172.235.157.127"
     port: 3128
-  - name: "HK-HTTP-165.154.7.156"
+  - name: "US-HTTP-50.238.106.26-2"
     type: "http"
-    server: "165.154.7.156"
-    port: 8888
-  - name: "HK-SOCKS5-45.194.33.12-2"
+    server: "50.238.106.26"
+    port: 3128
+  - name: "US-HTTP-20.98.234.24-3"
+    type: "http"
+    server: "20.98.234.24"
+    port: 8080
+  - name: "US-SOCKS4-207.246.122.209-4"
     type: "socks5"
-    server: "45.194.33.12"
-    port: 30002
-  - name: "HK-SOCKS5-103.119.1.160-3"
+    server: "207.246.122.209"
+    port: 20000
+  - name: "JP-SOCKS4-103.13.19.219"
+    type: "socks5"
+    server: "103.13.19.219"
+    port: 10808
+  - name: "JP-SOCKS5-101.36.104.239-2"
+    type: "socks5"
+    server: "101.36.104.239"
+    port: 10808
+  - name: "HK-SOCKS5-103.119.1.160"
     type: "socks5"
     server: "103.119.1.160"
     port: 5555
-  - name: "HK-SOCKS5-123.58.219.171-4"
+  - name: "HK-SOCKS5-219.78.223.199-2"
     type: "socks5"
-    server: "123.58.219.171"
-    port: 10808
-  - name: "KR-SOCKS5-43.155.128.61"
+    server: "219.78.223.199"
+    port: 5001
+  - name: "HK-SOCKS5-45.194.33.12-3"
     type: "socks5"
-    server: "43.155.128.61"
-    port: 1080
-  - name: "KR-SOCKS5-183.106.215.208-2"
+    server: "45.194.33.12"
+    port: 30002
+  - name: "HK-SOCKS5-45.194.33.12-4"
+    type: "socks5"
+    server: "45.194.33.12"
+    port: 30001
+  - name: "KR-SOCKS5-183.106.215.208"
     type: "socks5"
     server: "183.106.215.208"
     port: 1080
@@ -40,35 +56,35 @@ proxies:
     type: "http"
     server: "103.237.102.191"
     port: 11111
-  - name: "FR-HTTP-141.94.22.37"
+  - name: "DE-HTTP-5.75.173.39-2"
     type: "http"
-    server: "141.94.22.37"
+    server: "5.75.173.39"
     port: 3128
-  - name: "ID-HTTP-160.22.45.126"
-    type: "http"
-    server: "160.22.45.126"
-    port: 8097
-  - name: "ID-HTTP-101.255.210.9-2"
-    type: "http"
-    server: "101.255.210.9"
-    port: 3125
-  - name: "NL-HTTP-94.183.206.215"
-    type: "http"
-    server: "94.183.206.215"
-    port: 8080
-  - name: "NL-HTTP-89.46.131.79-2"
-    type: "http"
-    server: "89.46.131.79"
-    port: 10000
-  - name: "NL-SOCKS4-89.46.131.79-3"
+  - name: "IN-SOCKS5-103.124.172.134"
     type: "socks5"
-    server: "89.46.131.79"
-    port: 10000
-  - name: "NL-SOCKS5-89.46.131.79-4"
+    server: "103.124.172.134"
+    port: 1080
+  - name: "IN-SOCKS5-82.180.146.251-2"
     type: "socks5"
-    server: "89.46.131.79"
-    port: 10000
-  - name: "BR-HTTP-186.233.119.183"
+    server: "82.180.146.251"
+    port: 10800
+  - name: "ID-HTTP-103.130.61.61"
     type: "http"
-    server: "186.233.119.183"
-    port: 3128
+    server: "103.130.61.61"
+    port: 8081
+  - name: "MY-HTTP-47.254.213.60"
+    type: "http"
+    server: "47.254.213.60"
+    port: 1081
+  - name: "MY-HTTP-47.254.213.60-2"
+    type: "http"
+    server: "47.254.213.60"
+    port: 1082
+  - name: "MY-SOCKS4-47.254.213.60-3"
+    type: "socks5"
+    server: "47.254.213.60"
+    port: 1081
+  - name: "MY-SOCKS5-47.254.213.60-4"
+    type: "socks5"
+    server: "47.254.213.60"
+    port: 1081
