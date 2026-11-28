@@ -1,46 +1,62 @@
 # profile-title: Hot Countries Free
 # profile-update-interval: 12
 # Hot-country free proxies for chain/dialer-proxy use
-# Generated: 2026-11-28 05:24:41 CST (Asia/Shanghai)
+# Generated: 2026-11-28 15:29:43 CST (Asia/Shanghai)
 # Criteria: HTTPS OK + geo match + ≥3/4 hold ~30–40s (two rounds when possible)
 # Countries: US, JP, SG, HK, KR, DE, GB, FR, TR, IN, ID, TW, MY, TH, NL, CA, AU, BR
 # Prefer encrypted (vless/ss/vmess/trojan); else no-auth HTTP/SOCKS
-# Usable total: 17
-# Per-country: {"US": 6, "JP": 1, "SG": 0, "HK": 1, "KR": 1, "DE": 2, "GB": 1, "FR": 2, "TR": 0, "IN": 0, "ID": 2, "TW": 0, "MY": 0, "TH": 0, "NL": 0, "CA": 0, "AU": 1, "BR": 0}
+# Usable total: 28
+# Per-country: {"US": 5, "JP": 2, "SG": 2, "HK": 2, "KR": 2, "DE": 5, "GB": 2, "FR": 1, "TR": 1, "IN": 1, "ID": 3, "TW": 0, "MY": 1, "TH": 0, "NL": 1, "CA": 0, "AU": 0, "BR": 0}
 proxies:
-  - name: "US-HTTP-50.238.106.26"
-    type: "http"
-    server: "50.238.106.26"
-    port: 3128
-  - name: "US-HTTP-129.153.97.250-2"
-    type: "http"
-    server: "129.153.97.250"
-    port: 9443
-  - name: "US-HTTP-64.83.0.132-3"
-    type: "http"
-    server: "64.83.0.132"
-    port: 1080
-  - name: "US-HTTP-20.98.234.24-4"
+  - name: "US-HTTP-20.98.234.24"
     type: "http"
     server: "20.98.234.24"
     port: 8080
-  - name: "US-SOCKS4-64.83.0.132-5"
+  - name: "US-HTTP-216.125.18.67-2"
+    type: "http"
+    server: "216.125.18.67"
+    port: 3128
+  - name: "US-HTTP-50.238.106.26-3"
+    type: "http"
+    server: "50.238.106.26"
+    port: 3128
+  - name: "US-HTTP-111.119.162.248-4"
+    type: "http"
+    server: "111.119.162.248"
+    port: 10924
+  - name: "US-HTTP-111.119.162.248-5"
+    type: "http"
+    server: "111.119.162.248"
+    port: 10925
+  - name: "JP-HTTP-150.230.211.74"
+    type: "http"
+    server: "150.230.211.74"
+    port: 8080
+  - name: "JP-HTTP-158.101.152.7-2"
+    type: "http"
+    server: "158.101.152.7"
+    port: 7890
+  - name: "SG-HTTP-104.248.151.93"
+    type: "http"
+    server: "104.248.151.93"
+    port: 9090
+  - name: "SG-HTTP-111.119.162.248-2"
+    type: "http"
+    server: "111.119.162.248"
+    port: 10914
+  - name: "HK-SOCKS5-45.194.33.12"
     type: "socks5"
-    server: "64.83.0.132"
-    port: 1080
-  - name: "US-HTTP-111.119.162.248-6"
-    type: "http"
-    server: "111.119.162.248"
-    port: 10903
-  - name: "JP-HTTP-111.119.162.248"
-    type: "http"
-    server: "111.119.162.248"
-    port: 10936
-  - name: "HK-HTTP-111.119.162.248"
-    type: "http"
-    server: "111.119.162.248"
-    port: 10949
-  - name: "KR-SOCKS5-183.106.215.208"
+    server: "45.194.33.12"
+    port: 30001
+  - name: "HK-SOCKS5-45.194.33.12-2"
+    type: "socks5"
+    server: "45.194.33.12"
+    port: 30002
+  - name: "KR-SOCKS5-121.169.46.116"
+    type: "socks5"
+    server: "121.169.46.116"
+    port: 1090
+  - name: "KR-SOCKS5-183.106.215.208-2"
     type: "socks5"
     server: "183.106.215.208"
     port: 1080
@@ -48,31 +64,59 @@ proxies:
     type: "http"
     server: "103.237.102.191"
     port: 11111
-  - name: "DE-SOCKS5-5.75.133.113-2"
+  - name: "DE-SOCKS4-5.252.155.29-2"
+    type: "socks5"
+    server: "5.252.155.29"
+    port: 1080
+  - name: "DE-SOCKS5-5.75.133.113-3"
     type: "socks5"
     server: "5.75.133.113"
-    port: 10808
-  - name: "GB-HTTP-198.244.254.77"
+    port: 10811
+  - name: "DE-SOCKS5-49.13.22.249-4"
+    type: "socks5"
+    server: "49.13.22.249"
+    port: 10805
+  - name: "DE-HTTP-51.224.131.122-5"
     type: "http"
-    server: "198.244.254.77"
-    port: 3128
-  - name: "FR-HTTP-173.212.207.102"
+    server: "51.224.131.122"
+    port: 7048
+  - name: "GB-HTTP-104.111.32.26"
     type: "http"
-    server: "173.212.207.102"
-    port: 1214
-  - name: "FR-HTTP-91.134.141.4-2"
+    server: "104.111.32.26"
+    port: 10001
+  - name: "GB-HTTP-104.111.32.26-2"
+    type: "http"
+    server: "104.111.32.26"
+    port: 10002
+  - name: "FR-HTTP-91.134.141.4"
     type: "http"
     server: "91.134.141.4"
     port: 3128
-  - name: "ID-HTTP-103.133.25.247"
+  - name: "TR-SOCKS5-95.3.92.2"
+    type: "socks5"
+    server: "95.3.92.2"
+    port: 1080
+  - name: "IN-HTTP-20.235.56.94"
     type: "http"
-    server: "103.133.25.247"
+    server: "20.235.56.94"
     port: 8080
+  - name: "ID-HTTP-103.130.61.61"
+    type: "http"
+    server: "103.130.61.61"
+    port: 8081
   - name: "ID-HTTP-103.163.80.181-2"
     type: "http"
     server: "103.163.80.181"
     port: 8085
-  - name: "AU-HTTP-210.8.69.103"
+  - name: "ID-HTTP-111.119.162.248-3"
     type: "http"
-    server: "210.8.69.103"
-    port: 808
+    server: "111.119.162.248"
+    port: 10934
+  - name: "MY-HTTP-111.119.162.248"
+    type: "http"
+    server: "111.119.162.248"
+    port: 10933
+  - name: "NL-HTTP-164.92.150.113"
+    type: "http"
+    server: "164.92.150.113"
+    port: 3128
